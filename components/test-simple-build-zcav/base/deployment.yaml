@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-simple-build-zcav
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/tnevrlka-test/build-e2e-fjmm-tenant/build-suite-test-application-mkuc/test-simple-build-zcav@sha256:9ae02d5cc8e3b49c63024d9e9006939e79db84a7f151462b042bc7089993176e
         name: my-nginx
         ports:
         - containerPort: 8080
